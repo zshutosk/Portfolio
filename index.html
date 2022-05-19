@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Zach Shutoski</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="index.html" class="link">ZS</a>
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Zach Shutoski.</span></h1>
+        <h2 class="about__role">Web Designer/Developer</h2>
+        <p class="about__desc">
+          Energetic and reliable developer with a keen awareness of web interface design and aesthetics.
+          Seeking a challenging position to utilize my professional skills in the best possible way for achieving the company’s goals
+        </p>
+
+        <div class="about__contact center">
+          <a href="./SHUTOSKI_Z_RESUME.docx" download="SHUTOSKI_Z_RESUME.docx">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+
+          <a
+            href="https://github.com/zshutosk"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/zachary-shutoski/"
+            aria-label="linkedin"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Valpo IMC Redesign</h3>
+            <p class="project__description">
+              For this project, the goal was to migrate the IMC page on valpo.edu's old template to their new modern design. 
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Wordpress</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+            <a href="project1.html" aria-label="live preview" class="link link--icon"
+            onclick="window.open(this.href); return false;"
+            onkeypress="window.open(this.href); return false;">
+            <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+          </a>
+          </div>
+       
+
+          <div class="project">
+            <h3>Valpo A to Z Redesign</h3>
+            <p class="project__description">
+              For this project, the goal was to migrate the A to Z hub on
+              Valpo.edu's old template to their new modern design.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Wordpress</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a href="project2.html" aria-label="live preview" class="link link--icon"
+            onclick="window.open(this.href); return false;"
+            onkeypress="window.open(this.href); return false;">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Valpo Graduate Report Redesign</h3>
+            <p class="project__description">
+              For this project, the goal was to migrate the Graduate Report site on valpo.edu's old template to their new
+              modern design.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Wordpress</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            </a>
+            <a href="project3.html" aria-label="live preview" class="link link--icon"
+            onclick="window.open(this.href); return false;"
+            onkeypress="window.open(this.href); return false;">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Tip Calculator</h3>
+            <p class="project__description">
+              A tip calculator coded with HTML, CSS, & JavaScript
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Javascript</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/zshutosk/tip-calculator"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zshutosk.github.io/tip-calculator/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Spanish Survival App</h3>
+            <p class="project__description">
+              A spanish survival translation app that helps the user with important simple terms with a speech synthesis API.
+              
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/zshutosk/spanish-survival"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zshutosk.github.io/spanish-survival/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>JavaScript Typing Game</h3>
+            <p class="project__description">
+              A typing game created with a sentence generating API.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">HTML</li>
+              <li class="project__stack-item">CSS</li>
+            </ul>
+
+            <a
+              href="https://github.com/zshutosk/typing-game"
+              aria-label="source code"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://zshutosk.github.io/typing-game/"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">WordPress</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">SCSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">Photoshop</li>
+        </ul>
+      </section>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:zshutoski@gmail.com">
+          <h6>zshutoski@gmail.com</h6>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/zshutosk"
+        class="link footer__link">
+        Zach Shutoski
+      </a>
+    </footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

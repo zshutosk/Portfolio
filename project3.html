@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    
+    <title>Zach Shutoski</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="index.html" class="link">ZS</a>
+      </h3>
+
+      
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+        <div class="about center">
+            <h2 class="about__role">Valpo Graduate Report Redesign</h2>
+            <p class="about__desc">
+                For this project, the goal was to migrate the Graduate Report site on valpo.edu's old template to their new
+                modern design. The objective for the new page was to be less image/graph based and more focused on past student success stories.  The team and I felt that
+                graduate success was a better title from an SEO perspective, and we had our writers provide more copy on the pages as well.
+
+            </p>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <a href="./img/GRAD-TEMPLATES.jpg" onclick="window.open(this.href); return false;"
+                  onkeypress="window.open(this.href); return false;">
+                  <img src="./img/GRAD-TEMPLATES.jpg" style="width:100%">
+                  </a>
+                  <div class="text">Graduate Report Redesign (click to enlarge)</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <a href="./img/before-grad.png" onclick="window.open(this.href); return false;"
+                  onkeypress="window.open(this.href); return false;">
+                  <img src="./img/GRAD-BEFORE.jpg" style="width:100%">
+                  </a>
+                  <div class="text">Before, old template (click to enlarge)</div>
+                </div>
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                  <a href="./img/after-grad.png" onclick="window.open(this.href); return false;"
+                  onkeypress="window.open(this.href); return false;">
+                    <img src="./img/GRAD-AFTER.jpg" style="width:100%">
+                    </a>
+                    <div class="text">After, new template (click to enlarge)</div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+          
+    </main>
+
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:zshutoski@gmail.com">
+          <h6>zshutoski@gmail.com</h6>
+        </a>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <a
+        href="https://github.com/zshutosk"
+        class="link footer__link">
+        Zach Shutoski
+      </a>
+    </footer>
+
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
