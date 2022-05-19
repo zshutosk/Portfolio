@@ -265,11 +265,19 @@
   .about__proj {
     margin-top: 0;
   }
+
+  .about__projdesc {
+    margin-top:1.5em;
+    margin-bottom:1.4em;
+    font-size: 1rem;
+    max-width: 640px;
+  }
   
   .about__desc {
     font-size: 1rem;
     max-width: 600px;
   }
+
   
   .about__desc,
   .about__contact {
