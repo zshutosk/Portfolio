@@ -261,6 +261,10 @@
   .about__role {
     margin-top: 1.2em;
   }
+
+  .about__proj {
+    margin-top: 0.5em;
+  }
   
   .about__desc {
     font-size: 1rem;
