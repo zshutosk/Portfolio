@@ -32,7 +32,7 @@
     --clr-fg: #555;
     --clr-fg-alt: #444;
     --clr-primary: #266ecc;
-    --shadow: rgba(74, 74, 82, 0.116) 0px 7px 29px 0px;
+    --shadow: rgba(92, 92, 101, 0.116) 0px 7px 29px 0px;
   }
   
   .dark {
@@ -419,11 +419,13 @@
   }
   img {
     vertical-align: middle;
+    box-shadow: var(--shadow);
   }
   .slideshow-container {
     max-width: 800px;
     position: relative;
     margin: auto;
+    
   }
   /* Next & previous buttons */
   .prev,
