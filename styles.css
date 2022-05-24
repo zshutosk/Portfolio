@@ -426,8 +426,10 @@
     display: none
   }
   img {
+    border: 1.5px solid;
+    border-color:var(--clr-fg);
     vertical-align: middle;
-    box-shadow: var(--shadow);
+   
   }
   .slideshow-container {
     max-width: 800px;
